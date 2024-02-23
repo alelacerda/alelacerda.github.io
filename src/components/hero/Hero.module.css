@@ -68,32 +68,6 @@
     animation: floating 6s infinite ease-in-out;
 }
 
-.topBlur {
-    position: fixed;
-    width: 50vw;
-    height: 50vw;
-    min-width: 350px;
-    top: -128px;
-    left: -10vw;
-    border-radius: 764px;
-    background: var(--color-secondary);
-    filter: blur(100px);
-    z-index: -1;
-}
-
-.bottomBlur {
-    position: fixed;
-    width: 70vw;
-    height: 50vw;
-    min-width: 350px;
-    top: 246px;
-    right: -25vw;
-    border-radius: 764px;
-    background: var(--color-secondary);
-    filter: blur(100px);
-    z-index: -1;
-}
-
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
