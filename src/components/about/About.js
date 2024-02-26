@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./About.module.css";
 
+import CursorIcon from "../../assets/about/cursorIcon.svg";
+import MobileIcon from "../../assets/about/mobileIcon.svg";
+import SwiftIcon from "../../assets/about/swiftIcon.svg";
+
 export const About = () => {
     return (
         <section className={styles.container} id="about">
@@ -14,7 +18,7 @@ export const About = () => {
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
                         <img 
-                            src={require("../../assets/about/cursorIcon.png")}
+                            src={CursorIcon}
                             alt="cursor"
                         />
                         <div className={styles.aboutItemText}>
@@ -26,7 +30,7 @@ export const About = () => {
                     </li>
                     <li className={styles.aboutItem}>
                         <img 
-                            src={require("../../assets/about/mobileIcon.png")}
+                            src={MobileIcon}
                             alt="mobile"                        
                         />
                         <div className={styles.aboutItemText}>
@@ -38,7 +42,7 @@ export const About = () => {
                     </li>
                     <li className={styles.aboutItem}>
                         <img 
-                            src={require("../../assets/about/swiftIcon.png")}
+                            src={SwiftIcon}
                             alt="swift"
                         />
                         <div className={styles.aboutItemText}>
