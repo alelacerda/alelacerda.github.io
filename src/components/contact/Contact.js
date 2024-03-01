@@ -19,11 +19,11 @@ export const Contact = () => {
                 </li>
                 <li className={styles.link}>
                     <img src={GithubIcon} alt="github-icon" />
-                    <a href="https://github.com/alelacerda">github.com/alelacerda</a>
+                    <a href="https://github.com/alelacerda" target="_blank" rel="noreferrer">github.com/alelacerda</a>
                 </li>
                 <li className={styles.link}>
                     <img src={LinkedinIcon} alt="linkedin-icon" />
-                    <a href="https://www.linkedin.com/in/ale-lacerda">linkedin.com/in/ale-lacerda</a>
+                    <a href="https://www.linkedin.com/in/ale-lacerda" target="_blank" rel="noreferrer">linkedin.com/in/ale-lacerda</a>
                 </li>
             </ul>
         </footer>
