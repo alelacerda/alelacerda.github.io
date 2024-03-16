@@ -1,0 +1,225 @@
+[
+    {
+      "id": 1,
+      "name": "Laser",
+      "cardPicture": "defaultCoverImage.png",
+      "cardDescription": "Laser customizes remote teaching for higher education students to encourage autonomous and collaborative learning.",
+      "technologies": ["SwiftUI", "macOS"],
+      "icon": "laserIcon.png",
+      "about": "Laser is a platform that customizes remote teaching for higher education students to encourage autonomous and collaborative learning. It offers classes dashboards with teacher's contents, as well as personal workspaces for students to organize their studies. The personal workspace is highly customizable, allowing the students to place any type of content they want, from post-it notes and pdfs to videos. Students can also share materials with other students, creating a collaborative environment.",
+      "aboutPicture": "laser.png",
+      "tags": ["Education", "Apple Developer Academy"],
+      "development": "Laser was first developed for macOS, as we consider it main platform that students and teachers would use in class. This project was the first Mini Challenge of the Apple Developer Academy and in it I worked mainly on making SwiftUI components for the boards that users would be able to create inside the app. Bruno worked on creating components with me and also on making data persistent. Gustavo worked on creating new boards and more general actions for the user. Giovana and Yasmin worked on the app design and user experience. Unfortunatly we didn't have time to finish the project, but a video of the app running can be found below.",
+      "demoVideo": "https://drive.google.com/file/d/1YPzJ4DWSNn2Nbp058723X7nVTCV9w_7a/view?usp=sharing",
+      "github": "https://github.com/BrunoThuma/LaserApp",
+      "website": "",
+      "startDate": "2021-06-07",
+      "endDate": "2021-07-02",
+      "team": [
+        {
+          "name": "Bruno Thuma",
+          "linkedin": ""
+        },
+        {
+          "name": "Giovana Garcia",
+          "linkedin": ""
+        },
+        {
+          "name": "Gustavo Kumasawa",
+          "linkedin": ""
+        },
+        {
+          "name": "Yasmin Mayer",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bimo",
+      "cardPicture": "defaultCoverImage.png",
+      "cardDescription": "A journaling experience focused on recognizing and deepening feelings.",
+      "technologies": ["SwiftUI", "CoreData"],
+      "icon": "",
+      "about": "Bimo was born on a Mini Challenge of the Apple Developer Academy where the main theme was “Help”. We created a journaling experience focused on recognizing and deepening feelings. There are two main features in Bimo:  the daily check-in and the emotion's collection. On the daily check-in, the user can register their mood during that day, and also write a little bit about it. On the emotion's collection, the user can see all the moods they registered, and also read about especific emotions and write about how they felt when they were feeling that way.",
+      "aboutPicture": "laser.png",
+      "tags": ["Mental Health", "Journal", "Apple Developer Academy"],
+      "development": "Bimo was made with SwiftUI, and everyone worked a little bit on the interface, so that we could build the entire journaling flow until the end of the challenge. I worked mainly on parts of the journaling flow, setting views, and the navigation through the app with a router system. The project was not completed during the challenge, but the demo can be watched below.",
+      "demoVideo": "https://drive.google.com/file/d/1GXjmfiSiWOb8MD6rH2KO1Tj8usUyWBqU/view?usp=sharing",
+      "github": "https://github.com/slpuppy/journal",
+      "website": "",
+      "startDate": "2021-08-03",
+      "endDate": "2021-09-20",
+      "team": [
+        {
+          "name": "Ana Bittencourt",
+          "linkedin": ""
+        },
+        {
+          "name": "Gabriel Puppi",
+          "linkedin": ""
+        },
+        {
+          "name": "Naomi Yamanaka",
+          "linkedin": ""
+        },
+        {
+          "name": "Paulo Tadashi",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "NFTour",
+      "cardPicture": "defaultCoverImage.png",
+      "cardDescription": "AR experience that turns the world into an NFT museum.",
+      "technologies": ["UIKit", "Realm", "RealityKit", "SceneKit"],
+      "icon": "",
+      "about": "NFTour was born during an Apple Developer Academy Mini Challenge, which had the main theme “Through the Camera”. We came up with the challenge to **make NFT more tangible through immersive experiences, to make these digital assets more tangible and thereby popularize this universe to more people.** The app acts as a visualization tool of the NFTs in the real world, through the phone's camera. The user can access their crypto wallet and place their NFTs anywhere in the world. Other users can see everyone's NFTs that were placed in their current location, as if they were in a digital museum.",
+      "aboutPicture": "",
+      "tags": ["NFT", "Crypto", "Digital Museum", "Apple Developer Academy"],
+      "development": "We divided the app in different parts so that we would be able to finish it in time. Mariana was responsible for the design with Maria Luiza, who was also responsible for the Views. Gustavo was responsible for the connection between the app and the OpenSea wallet API. Guilerme was responsible for the RealityKit and Vision part, where he worked on placing the NFTs in the world and displaying them in AR. I was responsible for building a data model and building the data persistence, for this I used the Realm Cocoa Pod, as for the first version we wanted to keep the data saved locally only. I also helped Guilerme on placing the assets in AR and converting the coordinates so they could be saved on Realm. At the end, there were some features missing from the idea of the App and we ended up not releasing it to the AppStore.",
+      "demoVideo": "https://www.youtube.com/watch?v=3kaFcm7LXHY",
+      "github": "",
+      "website": "",
+      "startDate": "2021-10-15",
+      "endDate": "2021-11-29",
+      "team": [
+        {
+          "name": "Guilerme Barciki",
+          "linkedin": ""
+        },
+        {
+          "name": "Gustavo Tatarem",
+          "linkedin": ""
+        },
+        {
+          "name": "Mariana Florencio",
+          "linkedin": ""
+        },
+        {
+          "name": "Maria Luiza Amaral",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mindtate",
+      "cardPicture": "defaultCoverImage.png",
+      "cardDescription": "Mindtate is a guided meditation experience for beginners.",
+      "technologies": ["SpriteKit", "AVFoundation", "SwiftPlaygrounds"],
+      "icon": "",
+      "about": "During the last few years I struggled a bit with anxiety and this Swift Playground was made with the intention of teaching a basic meditation technique. Mindtate is an interactive experience that aims to teach and guide the user through basic meditation for beginners, with a breathing exercise and a thought recognition exercise.",
+      "aboutPicture": "",
+      "tags": ["Mindfulness", "Swift Student Challenge", "Apple Developer Academy"],
+      "development": "Mindtate was developed as an entry to the Swift Student Challenge of the 2021 WWDC. It was at the beginning of my journey in iOS development and I didn't have much experience with SpriteKit. It was my first real project in Swift and I developed everything: code, assets and music. With this project, I ended up being selected as one of the 2021 Swift Student Challenge winners. I was really happy with the award because I was really proud of what I had achieved with this Playground, with less than a month of experience in Swift.",
+      "demoVideo": "https://www.youtube.com/watch?v=pFvWxKE0Hp8",
+      "github": "https://github.com/alelacerda/mindtate",
+      "website": "",
+      "startDate": "2021-04-05",
+      "endDate": "2021-04-18",
+      "team": []
+    },
+    {
+      "id": 5,
+      "name": "colors",
+      "cardPicture": "defaultCoverImage.png",
+      "cardDescription": "Interactive experience about color accessibility in UI.",
+      "technologies": ["SwiftUI", "SwiftPlaygrounds"],
+      "icon": "",
+      "about": "I was always curious about UI accessibility and how an interface could be evaluated on its colors. That's where the idea for this Playground came from, and I took the opportunity of the Swift Student Challenge to study about this subject. I found great materials about color contrast and also about simulating how colorblind people see different colors. One project that helped my Playground come to life was the Inclusive Color library made by Laura Ragone available at GitHub.",
+      "aboutPicture": "",
+      "tags": ["Accessibility", "UI", "Swift Student Challenge","Apple Developer Academy"],
+      "development": "With the new Playground format presented at this edition of the challenge, I decided to develop the whole app with SwiftUI, mainly to improve my skills with this framework. I kept the interface simple, to create focus on the colors that the user would choose. The experience follows with an interface without colors, that the user is asked to fill with color. After that, the interface is evaluated on its contrasts and it is also possible to preview the interface with filters of different types of colorblindness. For the second year in a row, I was selected as one of the winners of the Swift Student Challenge, and I'm really proud of the results that I got during the development of this app. It made me grow as a developer and also made me more conscious about the use of colors on future apps.",
+      "demoVideo": "https://www.youtube.com/watch?v=C9SjYo9tDV4",
+      "github": "https://github.com/alelacerda/colors",
+      "website": "",
+      "startDate": "2022-04-05",
+      "endDate": "2022-04-24",
+      "team": []
+    },
+    {
+      "id": 6,
+      "name": "Another Block In The Wall",
+      "cardPicture": "defaultCoverImage.png",
+      "cardDescription": "Hypercasual blocks game.",
+      "technologies": ["SpriteKit", "UIKit", "GoogleAnalytics", "GoogleAdMob"],
+      "icon": "",
+      "about": "Another Block in the Wall is a new twist to one of the most iconic puzzle games. The goal is simple: place the blocks on the board and try to fill horizontal and vertical lines, freeing space for new blocks to be placed. You can also rotate your blocks and even keep one block on hold when it doesn’t fit the current board. Once you get a new high score, check it out on the GameCenter and compare your score with your friends! Place blocks, eliminate lines and have fun!",
+      "aboutPicture": "",
+      "tags": ["Game", "Hypercasual", "Apple Developer Academy"],
+      "development": "This app was the result of the Nano Business Challenge at the Apple Developer Academy. In this challenge, we were tasked to make a hypercasual game, publish it and produce marketing campaigns for the game. Both me and Fred love classic games and we tried to make a variation of Tetris, with a bit of a different mechanic. Fred is a great designer and worked mostly on designing the app's interface and the assets for the campaign, while I worked mostly on the game mechanics and interactions. The game was developed mainly with SpriteKit to facilitate how the blocks interacted with each other. We also implemented Google Analytics, AdMob and GameCenter integration.",
+      "demoVideo": "https://www.instagram.com/reel/CapKREqgU5i/?utm_source=ig_web_copy_link",
+      "github": "",
+      "website": "https://www.instagram.com/anotherblockgame/",
+      "startDate": "2022-01-24",
+      "endDate": "2022-03-11",
+      "team": [
+        {
+          "name": "Frederico Westphalen",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Wizards vs. Robots",
+      "cardPicture": "defaultCoverImage.png",
+      "cardDescription": "Augmented reality social deduction game.",
+      "technologies": ["UIKit", "CoreNFC", "Combine", "SceneKit", "SnapKit", "TypeScript", "VIP", "Coordinator"],
+      "icon": "",
+      "about": "This is a project about something",
+      "aboutPicture": "",
+      "tags": ["Game", "Augmented Reality", "Immersion", "Social Deduction", "Apple Developer Academy"],
+      "development": "We started the development of Wizards vs. Robots building a testable MVP, to validate our product. For that, we built a simple interface with the main informations needed for the game, as well as a connection between all players using Apple's Multipeer Connectivity. We also used NFC Tags as the main technology in our game, and every interaction between the phone and the cards of the game are made through these tags. We applied multiple tests with our Academy colleagues and validate our game, with everyone giving positive feedbacks. When the Macro Challenge started, we started building our game from scratch, based on the MVP, but with a more organized structure. I was the one responsible for defining and implementing a good design pattern for our project, and the one I chose was VIP, because it makes the views modular and detached from one another. I also implemented the app navigation with a coordinator pattern, allowing easy management of different game flows. After the basic navigation and project structure was ready, Eros and I focused on implementing the front end, while André worked on the server, Gabriel Puppi worked on the SceneKit mini games and Mariana and Yasmin worked on the design of the views and the physical game. We had plans to release the game to the AppStore, but we ended up not having the time to finish it yet.",
+      "demoVideo": "https://youtu.be/oHscKaaW3tY?si=NoXFDEci4B8JauGj",
+      "github": "",
+      "website": "https://www.instagram.com/tuquistudios/",
+      "startDate": "2022-05-01",
+      "endDate": "2022-12-01",
+      "team": [
+        {
+          "name": "André Schueda",
+          "linkedin": ""
+        },
+        {
+          "name": "Erick Martins",
+          "linkedin": ""
+        },
+        {
+          "name": "Eros Maurilio",
+          "linkedin": ""
+        },
+        {
+          "name": "Gabriel Puppi",
+          "linkedin": ""
+        },
+        {
+          "name": "Mariana Florencio",
+          "linkedin": ""
+        },
+        {
+          "name": "Yasmin Mayer",
+          "linkedin": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "NookHelper",
+      "cardPicture": "defaultCoverImage.png",
+      "cardDescription": "Animal Crossing: New Horizons companion app.",
+      "technologies": ["SwiftUI", "SwiftData", "Coordinator", "MVVM"],
+      "icon": "",
+      "about": "This is a work in progress. This project is a companion app for the game Animal Crossing: New Horizons. It is a mobile app that allows the user to keep track of their island's progress, as well as to keep track of the items they have and the ones they want to get. The app will also have a island rating calculator feature, where the user can insert their island's data and get a rating based on the game's mechanics.",
+      "aboutPicture": "",
+      "tags": ["Tracking", "Game Stats", "Companion App"],
+      "development": "",
+      "demoVideo": "",
+      "github": "",
+      "website": "",
+      "team": []
+    }
+]
