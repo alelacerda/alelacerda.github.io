@@ -79,7 +79,12 @@ export const ProjectDetails = ({ project, onClose }) => {
                             <ul className={styles.teamContent}>
                                 {project.team.map((member, index) => (
                                     <li key={index} className={styles.teamMember}>
-                                        <a href={member.linkedin} target="_blank" rel="noopener noreferrer">{member.name}</a>
+                                        {member.linkedin !== "" && 
+                                            <a href={member.linkedin} target="_blank" rel="noopener noreferrer">{member.name}</a>
+                                        }
+                                        {member.linkedin === "" && 
+                                            <p>{member.name}</p>
+                                        }
                                     </li>
                                 ))}
                             </ul>

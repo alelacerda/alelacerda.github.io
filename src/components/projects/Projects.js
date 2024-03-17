@@ -3,12 +3,12 @@ import styles from './Projects.module.css';
 
 export const Projects = ({ projects, onProjectClick }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="projects">
         <h2 className={styles.title}>Projects</h2>
         <div className={styles.content}>
             {projects.slice().reverse().map((project, index) => (
                 <div key={index} className={styles.projectCard} onClick={() => onProjectClick(project)}>
-                    <img src={require(`../../assets/projects/${project.cardPicture}`)} 
+                    <img src={require(`../../assets/projects/cards/${project.cardPicture}`)} 
                         alt={project.cardPicture}
                         className={styles.cardPicture}
                     />
